@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Sainishchai/TelegramBot /TelegramBot
+  git clone https://github.com/klaus-27/TelegramBot /TelegramBot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /TelegramBot
